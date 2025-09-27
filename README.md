@@ -1,5 +1,7 @@
 ## Hi there 👋
 
+I intersted in developing AI projects using python. I have been currently working on projects like linking a genetic algorithm to a predictive ML model for optimal neoantigen and TCR bonding for cancer immunotherapy research. I have also been expirementing with using vibe coding technology to develop a novel genetic algorithm (AMEF or Algorithmic Meta Evouloutionary Framework). The Algorithmic Meta-Evolutionary Framework (AMEF) is a novel, two-layer control system that statistically monitors the search diversity of the underlying optimization algorithm and dynamically adapts its internal constraints to guarantee solution reliability and safety. I have been using it in both agriscience projects (such as in silico testing of optimizing fertilizers) and in medical technology projects (such as optimizing the dosage amount of Vancomycin to treat Sepsis). 
+
 <!--
 **Laserslade/Laserslade** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
