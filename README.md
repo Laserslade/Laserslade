@@ -1,13 +1,86 @@
-## Hi there!
+<h1 align="center"><b>Hi, I'm Satya Thavanesh Yalla</b> 👋</h1>
 
-I am interested in developing AI projects using python. I have been experimenting with developing a novel genetic algorithm (AMEF or Algorithmic Meta Evolutionary Framework). The Algorithmic Meta-Evolutionary Framework (AMEF) is a novel, two-layer control system that statistically monitors the search diversity of the underlying optimization algorithm and dynamically adapts its internal constraints to guarantee solution reliability and safety. I have been using it in both agriscience projects (such as in silico testing of optimizing fertilizers) and in medical technology projects (such as optimizing the dosage amount of Vancomycin to treat Sepsis).
+<p align="center">
+  Computational research across biomedical engineering, optimization, and applied ML
+</p>
 
-I plan on majoring in Biomedical Engineering and I hope some of my repos can bring awareness and lead innovation to the certain problems I'm attempting to solve. I am open to any critique and feel free to email me at satyathavaneshyalla@gmail.com .
+<p align="center">
+  <a href="https://www.linkedin.com/in/satyathavanesh-yalla-9baab2423"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-connect-blue?logo=linkedin"></a>
+  <a href="mailto:yalla.satyathav@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-contact-red?logo=gmail"></a>
+</p>
 
-Main Research Projects (Note: Some are finalized and are published repos, not all of them are):
-- (BiOxiOptimize): Genetic algorithm using saturation functions to accurately model and develop optimal anti-oxidant blends to improve oxidative stability in bio-fuels.
-- (SEIKO): Using inverse kinetics to calculate optimal hand joint trajectories to treat muscoskeletal conditions and also using a ganetic algorithm to optimize safety limits within IK calculations and also using a monte carlo simulation to model biological variability for enhanced accuracy.
-- (AMEF): Using a genetic algorithm with a saturation function to optimize vancomycin dosing for outlier patients such as elderly patients with higher sensitivity and patients with augmented renal clearance, it also uses an algorithmic entropy metric to diagnose if the algorithm is stuck in a logic loop or not. If it is detected that the algorithm is in a logic loop it triggers the release of solutions from a memory module.
-- NITRI-Shield: Uses a genetic algorithm with specifc pharmacokinetic equations and a saturation function to optimize concentrations of compounds to design a molecular engineerable pill to reduce carcinogen formation from excess nitrate exposure. Uses a monte carlo population to model the pill's travel into the body.
-- Neuro-Gut: Uses a genetic algorithm to optimize the concentration of specifc bacteria into a "pill" to eventually shift and change a solider's gut bacteria colonoy to produce more neurotransmitters leading to lower stress therefore decreased chance of PTSD and potentially making smarter and more reactive soliders. Uses a monte carlo simulation to account for the entire platoon in making a pill so it doesnt make pill where platoon memebrs have differing success and GI distress levels.
+I build computational pipelines that replace expensive simulation with
+fast ML surrogates, then use them to optimize and understand physical
+and biological systems — across biomedical devices, agricultural
+engineering, finance, multi-agent robotics, and neuroscience.
 
+## 🔬 Research
+
+**Multi-Objective Optimization of Spray Application Settings**
+Distilled a Lagrangian particle spray simulator into XGBoost
+surrogates (R² up to 0.999) and optimized nozzle, pressure, and boom
+height with NSGA-II across four competing objectives; validated a
+surprising Pareto-front collapse via sensitivity sweep, grid
+cross-check, and multi-seed stability analysis.
+
+**Cortical Electrode Surrogate Optimization Framework**
+Built a parametric geometry generator and LHS-sampled finite element
+simulations (electrical, mechanical, thermal), trained XGBoost
+surrogates, and applied NSGA-II to identify Pareto-optimal
+intracortical microelectrode designs, validated against full FEA.
+
+**Regime-Conditioned Combinatorial Basis Selection for Variance
+Reduction in Monte Carlo Estimators**
+Formulated Monte Carlo variance reduction for derivative pricing as a
+learned combinatorial feature-selection problem via surrogate-guided
+genetic search, benchmarked against control variates and multilevel
+Monte Carlo.
+
+**Task-Conditioned Spectral Predictive Optimization for Decentralized
+Multi-Agent Systems**
+Replaced static auction penalties with a predictive spectral-graph
+utility (Fiedler eigenvector sensitivity) for multi-agent task
+allocation; achieved ~60% improvement in worst-case algebraic
+connectivity, validated with Monte Carlo trials, hypothesis testing,
+and ablation studies.
+
+**Sensitivity-Weighted Graph Discovery in Neuroinflammation Modeling**
+Converted a composed 22-variable mechanistic ODE model into
+Jacobian-weighted interaction graphs to discover recurring network
+motifs across a 1,275-graph ensemble; identified a motif disrupted by
+TNF-α inhibition, recurring in 92% of graphs.
+
+## 🧪 Current Positions
+
+- **USC Neuro Scholars Program** *(Jul. 2026 – Present)* — selected
+  for a competitive neuroscience research program (~8% acceptance
+  rate, fewer than 200 of 2,000+ international applicants); advanced
+  neuroscience coursework and translational research training.
+- **Student Researcher, Des Moines University Medicine and Health
+  Sciences** *(Jun. 2026 – Present)* — computational biotechnology:
+  ML-driven protein engineering for plastic-degrading enzymes, and
+  multi-objective optimization of anticancer peptides.
+- **Student Researcher, TrAC (Iowa State University Translational AI
+  Center)** *(May 2026 – Present)* — generative ML framework for
+  computational design of auxetic tissue scaffolds for regenerative
+  medicine.
+- **Co-founder & Chief AI and Database Lead, ClearSkies Initiative**
+  *(Apr. 2026 – Present)* — AI integration and data infrastructure
+  for a statewide radon and air-quality monitoring network.
+
+## 🏆 Honors & Awards
+
+- Presidential AI Challenge — National Finalist (Top 0.7% of 1,500+ teams)
+- Vireka CRISIS Gen II Biotechnology Research Challenge — Top 3 Finalist (200+ competitors)
+- Technology Student Association (TSA) — Data Science & Analytics National Finalist
+- Technology Student Association (TSA) — Web Design National Finalist
+- Congressional Debate — National Qualifier
+- Iowa State University AI High School Hackathon — 2nd Place
+
+## 🛠️ Technical Skills
+
+**Languages & Tools**
+![Python](https://img.shields.io/badge/-Python-blue) ![XGBoost](https://img.shields.io/badge/-XGBoost-lightgrey) ![NumPy](https://img.shields.io/badge/-NumPy-013243) ![SciPy](https://img.shields.io/badge/-SciPy-8CAAE6) ![NetworkX](https://img.shields.io/badge/-NetworkX-orange) ![scikit--learn](https://img.shields.io/badge/-scikit--learn-F7931E) ![pymoo](https://img.shields.io/badge/-pymoo-green)
+
+**Methods**
+Multi-Objective Optimization (NSGA-II) · Surrogate Modeling · Finite Element Analysis · Monte Carlo Methods · Variance Reduction · Spectral Graph Theory · Sensitivity Analysis · Statistical Hypothesis Testing
